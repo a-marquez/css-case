@@ -1,0 +1,35 @@
+{
+  "name": "css-case",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build -- --watch",
+    "build": "postcss src/index.css --dir build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 3,
+        "browsers": "last 2 versions"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-marquez/css-case.git"
+  },
+  "author": "Albert Marquez github.com/a-marquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-marquez/css-case/issues"
+  },
+  "homepage": "https://github.com/a-marquez/css-case#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "postcss-cli": "^5.0.0",
+    "postcss-preset-env": "^4.1.0",
+    "sugarss": "^1.0.1"
+  }
+}

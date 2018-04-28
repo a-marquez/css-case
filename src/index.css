@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #000;
+}
+
+a {
+  font-family: system-ui;
+  color: var(--color-primary);
+}

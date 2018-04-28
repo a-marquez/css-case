@@ -1,0 +1,17 @@
+TODO
+---
+- stack
+  - postcss
+    - preset-env
+    - sugarss
+    - try styleguides
+      - postcss
+        - https://github.com/morishitter/postcss-style-guide
+        - https://github.com/sotayamashita/psg-theme-sassline
+      - css
+        - https://holidaypirates.github.io/nucleus/index.html
+- start moving over case utilities/functionality
+- test
+  - importing whole and as modules
+- ci & cd
+  - commit to develop branch, use travis to verify and run docs to update master & github page
